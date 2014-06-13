@@ -1,0 +1,11 @@
+/*
+Ethan Scheldorf
+HOLES POKED INTO THE WINDOWS AD/DNS MACHINE
+Last Updated: 2014.06.13
+*/
+
+1) Firewall Holes
+  Enabled ALL existing Inbound and Outbound Rules (All "Profile: Private" were disabled)
+    Inbound: Remote Desktop (TCP-IN)
+  Inbound and Outbound: added Port 4038 as Windows Update Service
+2) 
